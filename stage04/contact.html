@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <header>
+            <h1>Diallo</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="">
+                <fieldset>
+                    <p>Personal informations</p>
+                    <label for="civility">Civility :</label>
+                        <label for="mr">
+                            <input type="radio" id="mr" name="fav_language" value="mr">
+                            Mr
+                        </label>
+                        <label for="mrs">
+                            <input type="radio" id="mrs" name="fav_language" value="mrs">
+                            Mrs
+                        </label>
+                    <label for="firstname">Firstname :</label>
+                    <input type="text">
+                    <label for="lastname">Lastname :</label>
+                    <input type="text">
+                    <label for="email">Email :</label>
+                    <input type="email">
+                    <label for="phonenumber">Phone number :</label>
+                    <input type="number">
+                </fieldset>
+                <fieldset>
+                    <p>Message</p>
+                    <label for="subject">Subject:</label>
+                    <input type="text" name="subject" id="subject" list="suggestions">
+                    <datalist id="suggestions">
+                        <option value="Work proposal">
+                        <option value="Just saying hello">
+                        <option value="Rendez-vous">
+                    </datalist>
+                    <label for="date">Current Date:</label>
+                    <input type="date">
+                    <label for="content">Content:</label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>

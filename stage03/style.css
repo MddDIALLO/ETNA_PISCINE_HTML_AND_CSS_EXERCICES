@@ -1,0 +1,48 @@
+.title {
+    text-align: center;
+    color: #54a6b1;
+}
+
+header {
+    background-color: #54a6b1;
+    color: white;
+    display: flex;
+    border-color: #54a6b1;
+    border-bottom: 5px;
+    width: 100%;
+}
+
+header h1 {
+    margin-left: 10px;
+    width: 20%;
+ }
+
+header nav {
+    width: 40%;
+    margin-left: 40%;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: #54a6b1;
+  }
